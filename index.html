@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masood Raza Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section id="home">
+<h1>Masood Raza</h1>
+<h3>Future Software Developer</h3>
+<p>I am an IT student passionate about programming and web development.</p>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am a student of Quaid-i-Azam University and I want to become a professional software developer.
+I enjoy solving problems and learning new technologies.
+</p>
+
+<h3>Interests</h3>
+<ul>
+<li>Programming</li>
+<li>Web Development</li>
+<li>Mobile App Development</li>
+</ul>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="project">
+<h3>Student Information System</h3>
+<p>C++ project using doubly circular linked list.</p>
+</div>
+
+<div class="project">
+<h3>Flutter Mobile App</h3>
+<p>A simple mobile application developed using Flutter.</p>
+</div>
+
+<div class="project">
+<h3>Java OOP Practice</h3>
+<p>Practice programs for inheritance and polymorphism.</p>
+</div>
+
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="skill">
+<p>HTML</p>
+<div class="progress"><div style="width:90%">90%</div></div>
+</div>
+
+<div class="skill">
+<p>CSS</p>
+<div class="progress"><div style="width:80%">80%</div></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="progress"><div style="width:70%">70%</div></div>
+</div>
+
+<div class="skill">
+<p>Java</p>
+<div class="progress"><div style="width:65%">65%</div></div>
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+
+<form onsubmit="return validateForm()">
+<input type="text" id="name" placeholder="Your Name">
+<input type="email" id="email" placeholder="Your Email">
+<textarea id="message" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+<p id="error" class="error"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
