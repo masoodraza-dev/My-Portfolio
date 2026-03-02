@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    line-height:1.6;
+}
+
+/* NAVBAR */
+nav{
+    background:#222;
+    padding:15px;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* SECTIONS */
+section{
+    padding:80px 20px;
+    min-height:100vh;
+}
+
+#home{
+    background:#f4f4f4;
+    text-align:center;
+}
+
+.project{
+    border:1px solid #ddd;
+    padding:15px;
+    margin:10px 0;
+    border-radius:5px;
+}
+
+/* SKILLS */
+.skill{
+    margin:10px 0;
+}
+
+.progress{
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress div{
+    background:#333;
+    color:white;
+    padding:5px;
+}
+
+/* FORM */
+form{
+    max-width:400px;
+    margin:auto;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    padding:10px 20px;
+    background:#222;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.error{
+    color:red;
+    text-align:center;
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+    }
+}
